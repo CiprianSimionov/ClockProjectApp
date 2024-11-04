@@ -1,2 +1,3 @@
-# - Digital Clock developed with Python
-# - web framework Django implemented
+# - Digital Clock 
+developed with Python
+web framework Django implemented
