@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    background-color: #6495ED;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial;
+}
+h1{
+    font-size: 50px !important;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.text {
+    font-size: 100px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+pre
+{
+ width: 500px;
+}
+

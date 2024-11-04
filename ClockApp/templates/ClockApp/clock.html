@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text">Digital Clock</h1>
+        <p class="text">{{format_current_hour}}</p>
+        <pre>
+            {{display_lines.0}}
+            {{display_lines.1}}
+            {{display_lines.2}}
+        </pre>
+
+    </div>
+</body>
+</html>
